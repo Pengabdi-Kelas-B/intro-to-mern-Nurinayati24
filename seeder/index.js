@@ -51,12 +51,12 @@ async function main() {
         //await movieModel.save()
 
         await Model.create({
-          title: title.title,
-          year: title.year,
-          genre: title.genre,
-          description: title.description,
-          director: title.director,
-          cast: title.cast,
+          title: item.title,
+          year: item.year,
+          genre: item.genre,
+          description: item.description,
+          director: item.director,
+          cast: item.cast,
         });
       }
 
